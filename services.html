@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon2.ico">
+	<meta name="description" content="B.Tech Student at NIT Allahabad">
+    <meta name="author" content="Akash Kumar Gaur">
+	<title>Heliotrope | Services</title>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+	<link href="css/hover-min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Hind+Guntur|Julius+Sans+One" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="css/w3.css">
+
+</head>
+<body>
+
+	<header id="header">
+				<div id="name">
+					<span><a href="index.html" style="text-decoration: none; color: #fff;">Heliotrope</a></span>&nbsp;<sub>by Akash</sub>
+				</div>
+				
+			<nav>
+					<a href="#" id="menu-icon"></a>
+					<ul>
+						<li><a href="#" class="hvr-grow">Browse&nbsp;<i class="fas fa-angle-down "></i></a>
+							<ul>
+								<li><a href="index.html#second" class="hvr-grow">Categories</a></li>
+								<li><a href="" class="hvr-grow">Find Freelancers</a></li>
+								<li><a href="" class="hvr-grow">Find Jobs</a></li>
+							</ul>
+						</li>
+						<li><a href="" class="hvr-grow">About</a></li>
+						<li><a href="" class="hvr-grow">Register</a></li>
+						<li><a href="" class="hvr-grow">Sign In</a></li>
+						<li><a href="" class="hvr-grow">Contact</a></li>
+					</ul>
+			</nav>
+	</header>
+
+	<section id="SSecond">
+		<div class="w3-sidebar w3-bar-block w3-black w3-card" style="width:20%;">
+			<br>
+			  <h5 class="w3-bar-item" style="color: #039be5;">Browse all Services</h5>
+			  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Design')">Design and Graphics</button>
+			  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Marketing')">Digital Marketing</button>
+			  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Writing')">Writing and Translation</button>
+			  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Video')">Video and Animation</button>
+			  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Music')">Music and Audio Services</button>
+			  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Tech')">Programming and Technology</button>
+			  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Net')">Networking and IT Support</button>
+			  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Web')">Web Design and Development</button>
+			</div>
+
+			<div style="margin-left:20%;">
+			  <div class="w3-padding headd">Browse our services</div>
+				<br>
+			  <div id="Design" class="w3-container city w3-animate-left" style="display:none">
+			    <h2>Fade in</h2>
+			    <p>London is the capital city of England.</p>
+			    <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+			  </div>
+
+			  <div id="Marketing" class="w3-container city w3-animate-left" style="display:none">
+			    <h2>Slide in from left</h2>
+			    <p>Paris is the capital of France.</p> 
+			    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+			  </div>
+
+			  <div id="Writing" class="w3-container city w3-animate-left" style="display:none">
+			    <h2>Slide in from top</h2>
+			    <p>Tokyo is the capital of Japan.</p>
+			    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+			  </div>
+
+			  <div id="Video" class="w3-container city w3-animate-left" style="display:none">
+			    <h2>Slide in from right</h2>
+			    <p>London is the capital city of England.</p>
+			    <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+			  </div>
+
+			  <div id="Music" class="w3-container city w3-animate-left" style="display:none">
+			    <h2>Slide in from bottom</h2>
+			    <p>Paris is the capital of France.</p> 
+			    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+			  </div>
+
+			  <div id="Tech" class="w3-container city w3-animate-left" style="display:none">
+			    <h2>Zoom in</h2>
+			    <p>Tokyo is the capital of Japan.</p>
+			    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+			  </div>
+
+			  <div id="Net" class="w3-container city w3-animate-left" style="display:none">
+			    <h2>Zoom in</h2>
+			    <p>Tokyo is the capital of Japan.</p>
+			    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+			  </div>
+
+			  <div id="Web" class="w3-container city w3-animate-left" style="display:none">
+			    <h2>Zoom in</h2>
+			    <p>Tokyo is the capital of Japan.</p>
+			    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+			  </div>
+
+			</div>
+
+
+	</section>
+
+	<script>
+		function openLink(evt, animName) {
+		  var i, x, tablinks;
+		  x = document.getElementsByClassName("city");
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablink");
+		  for (i = 0; i < x.length; i++) {
+		     tablinks[i].className = tablinks[i].className.replace(" w3-blue", "");
+		  }
+		  document.getElementById(animName).style.display = "block";
+		  evt.currentTarget.className += " w3-blue";
+		}
+	</script>
+	
+</body>
+</html>
